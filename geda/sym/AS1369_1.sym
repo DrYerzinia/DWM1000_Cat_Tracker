@@ -1,0 +1,52 @@
+v 20130925 2
+P 0 800 300 800 1 0 0
+{
+T 0 800 5 10 0 0 270 0 1
+pintype=unknown
+T 355 795 5 10 1 1 0 0 1
+pinlabel=GND
+T 205 845 5 10 1 1 0 6 1
+pinnumber=A1
+T 0 800 5 10 0 0 270 0 1
+pinseq=0
+}
+P 0 400 300 400 1 0 0
+{
+T 0 400 5 10 0 0 270 0 1
+pintype=unknown
+T 0 400 5 10 0 0 270 0 1
+pinseq=0
+T 355 395 5 10 1 1 0 0 1
+pinlabel=OUT
+T 205 445 5 10 1 1 0 6 1
+pinnumber=B1
+}
+P 1400 400 1100 400 1 0 0
+{
+T 1400 400 5 10 0 0 90 0 1
+pintype=unknown
+T 1400 400 5 10 0 0 90 0 1
+pinseq=0
+T 1045 395 5 10 1 1 0 6 1
+pinlabel=IN
+T 1195 445 5 10 1 1 0 0 1
+pinnumber=B2
+}
+P 1400 800 1100 800 1 0 0
+{
+T 1400 800 5 10 0 0 90 0 1
+pintype=unknown
+T 1400 800 5 10 0 0 90 0 1
+pinseq=0
+T 1045 795 5 10 1 1 0 6 1
+pinlabel=EN
+T 1195 845 5 10 1 1 0 0 1
+pinnumber=A2
+}
+B 300 200 800 800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 300 1100 8 10 1 1 0 0 1
+refdes=U?
+T 300 0 8 10 1 1 0 0 1
+footprint=WLCSP_4_5
+T 700 1100 8 10 1 1 0 0 1
+device=AS1369

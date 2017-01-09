@@ -1,0 +1,41 @@
+v 20110115 2
+P 200 0 200 400 1 0 0
+{
+T 200 0 5 10 0 0 0 0 1
+pintype=unknown
+T 200 455 5 10 1 1 90 0 1
+pinlabel=GND
+T 150 305 5 10 1 1 90 6 1
+pinnumber=1
+T 200 0 5 10 0 0 0 0 1
+pinseq=0
+}
+P 1000 0 1000 400 1 0 0
+{
+T 1000 0 5 10 0 0 0 0 1
+pintype=unknown
+T 1000 455 5 10 1 1 90 0 1
+pinlabel=Vout
+T 950 305 5 10 1 1 90 6 1
+pinnumber=2
+T 1000 0 5 10 0 0 0 0 1
+pinseq=0
+}
+P 600 1500 600 1100 1 0 0
+{
+T 600 1500 5 10 0 0 0 0 1
+pintype=unknown
+T 600 1045 5 10 1 1 90 6 1
+pinlabel=Vin
+T 550 1195 5 10 1 1 90 0 1
+pinnumber=3
+T 600 1500 5 10 0 0 0 0 1
+pinseq=0
+}
+B 0 400 1200 700 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 786 1195 8 10 1 1 0 0 1
+device=MCP1702T-3302E
+T 1286 395 8 10 1 1 0 0 1
+footprint=SOT23D
+T -14 1195 8 10 1 1 0 0 1
+refdes=U?

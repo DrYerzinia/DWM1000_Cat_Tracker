@@ -1,0 +1,133 @@
+v 20130925 2
+C 36200 57600 1 90 0 vcc-1.sym
+C 36100 57400 1 90 1 busripper-2.sym
+{
+T 35700 57400 5 8 0 0 270 2 1
+device=none
+}
+N 36200 57400 36100 57400 4
+{
+T 35800 57400 5 10 1 1 0 7 1
+netname=RSET
+}
+C 36100 57000 1 90 1 busripper-2.sym
+{
+T 35700 57000 5 8 0 0 270 2 1
+device=none
+}
+N 36200 57000 36100 57000 4
+{
+T 35800 57000 5 10 1 1 0 7 1
+netname=SWDIO
+}
+C 36100 56600 1 90 1 busripper-2.sym
+{
+T 35700 56600 5 8 0 0 270 2 1
+device=none
+}
+N 36200 56600 36100 56600 4
+{
+T 35800 56600 5 10 1 1 0 7 1
+netname=SWCLK
+}
+C 35900 58100 1 270 1 gnd-1.sym
+C 36100 59400 1 90 1 busripper-2.sym
+{
+T 35700 59400 5 8 0 0 270 2 1
+device=none
+}
+N 36200 59400 36100 59400 4
+{
+T 35800 59400 5 10 1 1 0 7 1
+netname=UTX
+}
+C 36100 58600 1 90 1 busripper-2.sym
+{
+T 35700 58600 5 8 0 0 270 2 1
+device=none
+}
+N 36200 58600 36100 58600 4
+{
+T 35800 58600 5 10 1 1 0 7 1
+netname=URX
+}
+C 36200 56200 1 0 0 connector8-2.sym
+{
+T 36900 59900 5 10 1 1 0 6 1
+refdes=DBG
+T 36500 59850 5 10 0 0 0 0 1
+device=CONNECTOR_8
+T 36300 55950 5 10 1 1 0 0 1
+footprint=HEADER8_2_T
+}
+C 38600 58200 1 0 0 connector3-2.sym
+{
+T 38900 59850 5 10 0 0 0 0 1
+device=CONNECTOR_3
+T 39300 59900 5 10 1 1 0 6 1
+refdes=UART
+T 39300 58150 5 10 1 1 180 0 1
+footprint=GSIP3
+}
+C 38600 54700 1 0 0 connector5-2.sym
+{
+T 38900 57150 5 10 0 0 0 0 1
+device=CONNECTOR_5
+T 39300 57200 5 10 1 1 0 6 1
+refdes=PROG
+T 39300 54550 5 10 1 1 180 0 1
+footprint=GSIP5
+}
+C 38600 55300 1 90 0 vcc-1.sym
+C 38300 55200 1 270 0 gnd-1.sym
+C 38500 56700 1 90 1 busripper-2.sym
+{
+T 38100 56700 5 8 0 0 270 2 1
+device=none
+}
+N 38600 56700 38500 56700 4
+{
+T 38200 56700 5 10 1 1 0 7 1
+netname=RSET
+}
+C 38500 55900 1 90 1 busripper-2.sym
+{
+T 38100 55900 5 8 0 0 270 2 1
+device=none
+}
+N 38600 55900 38500 55900 4
+{
+T 38200 55900 5 10 1 1 0 7 1
+netname=SWDIO
+}
+C 38500 56300 1 90 1 busripper-2.sym
+{
+T 38100 56300 5 8 0 0 270 2 1
+device=none
+}
+N 38600 56300 38500 56300 4
+{
+T 38200 56300 5 10 1 1 0 7 1
+netname=SWCLK
+}
+C 38300 58500 1 270 1 gnd-1.sym
+C 38500 59400 1 90 1 busripper-2.sym
+{
+T 38100 59400 5 8 0 0 270 2 1
+device=none
+}
+N 38600 59400 38500 59400 4
+{
+T 38200 59400 5 10 1 1 0 7 1
+netname=URX
+}
+C 38500 59000 1 90 1 busripper-2.sym
+{
+T 38100 59000 5 8 0 0 270 2 1
+device=none
+}
+N 38600 59000 38500 59000 4
+{
+T 38200 59000 5 10 1 1 0 7 1
+netname=UTX
+}
